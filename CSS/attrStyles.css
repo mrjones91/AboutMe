@@ -1,0 +1,18 @@
+#articles {
+    display: flex;
+    justify-content: space-around;
+}
+.left {
+    text-align: left;
+    /* display: flex; */
+    /* float: left; */
+}
+.right {
+    text-align: left;
+    /* display: flex; */
+    /* float: right; */
+}
+#quiz {
+    padding: 5%;
+    display: flex;
+}

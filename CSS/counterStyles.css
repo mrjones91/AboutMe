@@ -1,0 +1,18 @@
+@counter-style work {
+    system: fixed;
+    symbols: "\1F680" "\1F6F8" "\1F4BC" "\1F3EB" "\1F3EB" "\1F525";
+    suffix: " ";
+  }
+  /* 1F4BC 1F5D1*/
+
+@counter-style spaceship {
+    system: cyclic;
+    symbols: "\1F680";
+    suffix: " ";
+}
+
+@counter-style schmoney {
+    system: cyclic;
+    symbols: "\1F4B0";
+    suffix: " ";
+}

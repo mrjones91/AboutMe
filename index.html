@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About DJ</title>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="./CSS/style.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>This is DJ</h1>
-    <article>From a young age, I've been an avid tech enthusiast. This passion took me from 
+    <div>
+        <h1>This is DJ</h1>
+        <sub>from the country roads of Hardeman County to the city streets of Memphis</sub>
+    </div>
+    
+    <article>
+        <h2>Bio</h2>
+        <p>
+        From a young age, I've been an avid tech enthusiast. This passion took me from 
         being just a gamer to being a ninja web developer and published game developer. 
         I've discovered my drive to create meaningful and engaging experiences that are 
         intuitive to users. This drive to create is a trait that many of us have, and I've 
         taken to fostering that creativity by providing tools and know-how to others through 
         dijital Academy, where you can learn to bring your vision to life.
-
+        </p>
+        <p>
         Mastering the languages of the web: ► Javascript, HTML, and CSS ◄ has provided a great 
         background for being a well rounded developer. Building with libraries 
         like ► React, Meteor and EnchantJS ◄ has allowed me to take these tools and 
@@ -23,39 +31,51 @@
         applications, and video games. With experience developing and teaching, I help others 
         to cross the digital divide and become makers in their own right. We have to adapt, 
         build, and live our future; not be displaced by it.
+        </p>
     </article>
-    <article>
-        Tennessee State UniversityTennessee State University
-        Bachelor's degree, Computer Science and ArtBachelor's degree, Computer Science and Art
-        2011 - 20152011 - 2015
-        Activities and societies: Association for Computing Machinery, Honda Quiz Bowl, National Society of Black Engineers, Game Programming Club, Phi Beta Sigma Fraternity, Inc.Activities and societies: Association for Computing Machinery, Honda Quiz Bowl, National Society of Black Engineers, Game Programming Club, Phi Beta Sigma Fraternity, Inc.
-        
-        Savannah College of Art and DesignSavannah College of Art and Design
-        Interactive Design and Game DevelopmentInteractive Design and Game Development
-        2009 - 20112009 - 2011
+    <div id="articles">
+        <article class="left">
+            <h2>Work Experience</h2>
+            <ul style="list-style-type: work;">
+                <li>Code Crew</li>
+                <li>dijital Technologies - Contract Gigs
+                    <ul style="list-style-type: schmoney;">
+                        <li>Trust Marketing</li>
+                        <li>ettain Group</li>
+                        <li>System Improvements</li>
+                        <li>US Army TACOM</li>
+                    </ul>
+                </li>
+                
+                <li>Sedgwick</li>
+                <li>Shelby County Schools</li>
+                <li>Tennessee State University</li>
+                <li>iD Tech Camps</li>
+            </ul>
         </article>
-    <article>
-        <ul>
-            <li>Code Crew</li>
-            <li>dijital Technologies
-                <ul>
-                    <li>ettain Group</li>
-                    <li>System Improvements</li>
-                    <li>US Army TACOM</li>
-                </ul>
-                <ul>
-                    <li>ettain Group</li>
-                    <li>System Improvements</li>
-                    <li>US Army TACOM</li>
-                </ul>
-            </li>
+
+        <article class="right">
+            <h2>Education</h2>
+            <h4>Tennessee State University</h4>
+            <p>Bachelor's Degree: Computer Science and Art Concentrations</p>
+            <p>2011 - 2015</p>
+            <p>Activities and societies:</p>
+            <ul>
+                <li>Association for Computing Machinery,</li> 
+                <li>Honda Quiz Bowl, </li>
+                <li>National Society of Black Engineers, </li>
+                <li>Game Programming Club, </li>
+                <li>Phi Beta Sigma Fraternity, Inc.</li>
+            </ul>
+           
             
-            <li>Sedgwick</li>
-            <li>Shelby County Schools</li>
-            <li>Tennessee State University</li>
-            <li>iD Tech Camps</li>
-        </ul>
-    </article>
+            <h4>Savannah College of Art and Design</h4>
+            <p>Interactive Design and Game Development</p>
+            <p>2009 - 2011</p>
+            </article>
+    </div>
+       
+
     <button id="quiz">Start Quiz</button>
     <!-- 
         Create an About Me guessing game that utilizes HTML, CSS, & JavaScript.
@@ -72,6 +92,9 @@
         messages and replace them with the alerts() to complete the project.
 
  -->
-    <script src="script.js"></script>
+    <style>
+        
+    </style>
+    <script src="./JS/script.js"></script>
 </body>
 </html>
